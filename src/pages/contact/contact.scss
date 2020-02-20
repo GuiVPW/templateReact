@@ -1,0 +1,51 @@
+.form {
+    color: #fff !important;
+    border-color: #fff !important;
+    overflow: hidden;
+    & input {
+        border-color: #fff;
+        transition: 0.3s;
+        color: #fff;
+        &:hover {
+            border-color: #fff;
+            background-color: rgba(0,0,0,0.8);
+        }
+        &:focus {
+            border: 5px #fff !important;
+            background-color: rgba(255,255,255,0.1);
+        }
+    }
+    & textarea {
+        color: #fff;
+
+        & fieldset:hover {
+            border-color: #fff;
+            background-color: rgba(0,0,0,0.8);
+        }
+        & fieldset:focus {
+            border: 5px #fff !important;
+            background-color: rgba(255,255,255,0.1);
+        }
+    }
+    & fieldset{
+        border: 1px solid #fff !important;
+    }
+    & label {
+        color: #fff !important;
+    }
+}
+
+.divider{
+    display: flex;
+    justify-content: space-between;
+    & button {
+        color: #fff !important;
+        border: 2px solid #fff !important;
+        width: 250px;
+        padding: 10px !important;
+
+        &:focus {
+            border: 2px solid #fff !important;
+        }
+    }
+}

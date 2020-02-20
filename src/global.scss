@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway|Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Lato', 'Roboto', 'Raleway', sans-serif;
+    -webkit-font-smoothing: antialiased !important;
+    outline: 0 none;
+    text-decoration: none;
+    border: 0 none !important;   
+    background-color: #000000;
+}
+
+a {
+    border: none !important;
+    text-decoration: none !important;
+    outline: none !important;  
+}
+a:hover {
+    outline: none !important;  
+    text-decoration: none !important;
+}
+
+button {
+    border: 0 none !important;
+    &:active{
+        border: none !important;
+        outline: 0 !important;
+    }
+    &:focus{
+        border: none !important;
+        outline: 0 !important;
+    }
+}
+
+.main {
+    animation: fadein 1.5s 1 forwards;
+}
+
+.full-page {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+    & img {
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        filter: brightness(70%);
+        animation: blur 2s 1 forwards;
+    }
+}
+
+@keyframes blur {
+    from {filter: blur(0);}
+    to {filter: blur(3px);}
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

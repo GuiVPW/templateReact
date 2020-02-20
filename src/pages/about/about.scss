@@ -1,0 +1,79 @@
+.Container {
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+    padding: 40px;
+    position: relative;
+    overflow: auto;
+    margin-top: 4%;
+    border-radius: 15px;
+
+    & #flex {
+        margin-left: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    & .devs {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+
+        & .circle {
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            transition: 0.5s;
+        }
+        & .circle-content {
+            width: 125px !important;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+        .circle-content:hover {
+            background-color: #424242;
+        }
+    }
+}
+
+#worker1 {
+    animation: fadein 2s 1 forwards;
+}
+#worker2 {
+    animation: fadein 2.7s 1 forwards;
+}
+#worker3 {
+    animation: fadein 3.2s 1 forwards;
+}
+#worker4 {
+    animation: fadein 3.7s 1 forwards;
+}
+#worker5 {
+    animation: fadein 4.2s 1 forwards;
+}
+#worker6 {
+    animation: fadein 4.7s 1 forwards;
+}
+#text {
+    animation: fadein 5.3s 1 forwards;
+}
+
+a {
+    color: #fff;
+}
+
+svg {
+    color: #fff;
+    transform: rotate(-180deg);
+    /* Safari */
+    -webkit-transform: rotate(-180deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-180deg);
+
+    /* IE */
+    -ms-transform: rotate(-180deg);
+
+    /* Opera */
+    -o-transform: rotate(-180deg);
+}
