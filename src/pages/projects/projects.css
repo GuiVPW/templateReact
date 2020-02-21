@@ -1,0 +1,66 @@
+.Container {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 2%;
+  border-radius: 15px;
+  animation: fadein 3s 1 forwards;
+}
+.Container #flex {
+  margin-bottom: 20px;
+}
+.Container .project {
+  width: 110%;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.Container .project:hover {
+  box-shadow: 0px 3px 15px #000000;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+#project1 {
+  animation: fadein 2s 1 forwards;
+}
+#project2 {
+  animation: fadein 2.5s 1 forwards;
+}
+#project3 {
+  animation: fadein 3s 1 forwards;
+}
+#project4 {
+  animation: fadein 3.5s 1 forwards;
+}
+#project5 {
+  animation: fadein 4s 1 forwards;
+}
+#project6 {
+  animation: fadein 4.5s 1 forwards;
+}
+.circle {
+  margin-top: 20px;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  background: #f2f2f2;
+  border: 1px solid #fff;
+}
+#caption {
+  margin-top: 3px;
+  margin-bottom: 20px;
+}
+a {
+  color: #fff;
+}
+svg {
+  color: #fff;
+  transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+}
