@@ -36,7 +36,7 @@ class About extends Component {
                             </Link>
                         </div>
                         <Container className="devs">
-                            <Link to="https://www.linkedin.com/in/guilherme-p-17b8b2114/">
+                            <a href="https://www.linkedin.com/in/guilherme-p-17b8b2114/">
                                 <div className="circle-content" align="center" id="worker1">
                                     <img src={av1} className="circle"/>
                                     <Typography component="h6" variant="h6">
@@ -46,8 +46,8 @@ class About extends Component {
                                         CEO
                                     </Typography>
                                 </div>
-                            </Link>
-                            <Link to="https://www.linkedin.com/in/guilherme-p-17b8b2114/">
+                            </a>
+                            <a href="https://www.linkedin.com/in/guilherme-p-17b8b2114/">
                                 <div className="circle-content" align="center" id="worker2">
                                     <img src={av2} className="circle"/>
                                     <Typography component="h6" variant="h6">
@@ -57,8 +57,8 @@ class About extends Component {
                                         CTO
                                     </Typography>
                                 </div>
-                            </Link>
-                            <Link to="https://www.linkedin.com/in/guilherme-p-17b8b2114/">
+                            </a>
+                            <a href="https://www.linkedin.com/in/guilherme-p-17b8b2114/">
                                 <div className="circle-content" align="center" id="worker3">
                                     <img src={av3} className="circle"/>
                                     <Typography component="h6" variant="h6">
@@ -68,8 +68,8 @@ class About extends Component {
                                         Designer
                                     </Typography>
                                 </div>
-                            </Link>
-                            <Link to="https://www.linkedin.com/in/guilherme-p-17b8b2114/">
+                            </a>
+                            <a href="https://www.linkedin.com/in/guilherme-p-17b8b2114/">
                                 <div className="circle-content" align="center" id="worker4">
                                     <img src={av4} className="circle"/>
                                     <Typography component="h6" variant="h6">
@@ -79,7 +79,7 @@ class About extends Component {
                                         Redator
                                     </Typography>
                                 </div>
-                            </Link>
+                            </a>
                         </Container><br />
                         <Container id="text">
                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
