@@ -14,7 +14,7 @@
 .Container .project {
   width: 110%;
   border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
   transition: 0.5s;
   cursor: pointer;
