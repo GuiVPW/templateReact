@@ -36,7 +36,7 @@ class About extends Component {
                             </Link>
                         </div>
                         <Container className="devs">
-                            <a href="https://www.linkedin.com/in/guilherme-p-17b8b2114/">
+                            <a href="https://www.linkedin.com/in/guilherme-p-17b8b2114/" target="_blank">
                                 <div className="circle-content" align="center" id="worker1">
                                     <img src={av1} className="circle"/>
                                     <Typography component="h6" variant="h6">
@@ -47,7 +47,7 @@ class About extends Component {
                                     </Typography>
                                 </div>
                             </a>
-                            <a href="https://www.linkedin.com/in/guilherme-p-17b8b2114/">
+                            <a href="https://www.linkedin.com/in/guilherme-p-17b8b2114/" target="_blank">
                                 <div className="circle-content" align="center" id="worker2">
                                     <img src={av2} className="circle"/>
                                     <Typography component="h6" variant="h6">
@@ -58,7 +58,7 @@ class About extends Component {
                                     </Typography>
                                 </div>
                             </a>
-                            <a href="https://www.linkedin.com/in/guilherme-p-17b8b2114/">
+                            <a href="https://www.linkedin.com/in/guilherme-p-17b8b2114/" target="_blank">
                                 <div className="circle-content" align="center" id="worker3">
                                     <img src={av3} className="circle"/>
                                     <Typography component="h6" variant="h6">
@@ -69,7 +69,7 @@ class About extends Component {
                                     </Typography>
                                 </div>
                             </a>
-                            <a href="https://www.linkedin.com/in/guilherme-p-17b8b2114/">
+                            <a href="https://www.linkedin.com/in/guilherme-p-17b8b2114/" target="_blank">
                                 <div className="circle-content" align="center" id="worker4">
                                     <img src={av4} className="circle"/>
                                     <Typography component="h6" variant="h6">
